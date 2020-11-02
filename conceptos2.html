@@ -36,7 +36,7 @@
         <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#uno">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="uno">
+          <div class="collapse navbar-collapse" id="uno">
           <ul class="navbar-nav navegacion">
             <li class="nav-item"> <a href="index.html">INICIO</a></li>
             <li class="nav-item dropdown"> <a id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CONCEPTOS</a>
@@ -67,34 +67,100 @@
 <div class="container">
   <div class="row">
     <div class="col">
-      <p class="subtitulos">Estructura básica de html5 (etiquetas, atributos y valores)</p>
+      <p class="subtitulos">Conceptos</p>
       <br>
       <article class="cuadro"></article>
     </div>
   </div>
   <div class="row">
           <div class="col-xs-12 col-md-8">
-              <p class="titulo">BIENVENIDA</p>
-           En este curso de html5 aprenderas la estructura básica de una página web, lo relacionado a las etiquetas esencales para crear una web básica.
-           En este curso, aprenderas a crear páginas web con las herramientas más fundamentales: HTML. Aprenderás a escribir tu propio código para la web, entendiendo cómo funciona por dentro y cómo diseñar una web, este curso puede suponer una buena base para comenzar en el mundo del Desarrollo Web Front-end.
-           Este curso parte desde un conocimiento cero de HTML. Incluye las etiquetas fundamentales de HTML, sus atributos y valores o propiedades.
-           Basicamente una pagina web esta compuesta de 2 partes, una cabeza <strong>&lt;head&gt;</strong> y un contenido o cuerpo <strong>&lt;body&gt;</strong>
+              <p class="titulo"><E>ETIQUETAS</E></p>
+           <p>Ahora que entendemos el concepto de etiquetas, necesitamos poder identificarlas. Éstas se caracterizan porque van dentro de los caracteres menor que <code>&lt;</code> y mayor que <code>&gt;</code>, como en este ejemplo:
+<code>&lt;Aquí dentro va el nombre de la etiqueta&gt;</code></p>
             <div class="row">
-    <div class="col-xs-12 col-md-4">
+    <div class="col-xs-12 col-md-3">
       <br><br><br>
-      <img src="images/html.jpg" class="img-fluid servicios">
-      <p style="font-size: 11px">Hernández, V.(May 4, 2018). e-Learning Master. recuperado de: http://elearningmasters.galileo.edu/2018/05/04/html5-en-cursos-virtuales/</p>
+      <img src="images/tags.jpg" class="img-fluid servicios">
+      <p style="font-size: 11px">DISEÑO WEB BARCELONA. (9 marzo, 2018). www.empresawebs.com. recuperado de: https://www.empresawebs.com/etiquetas-html-h1-h2-que-son-para-que-sirven-y-como-se-utilizan/</p>
     </div>
-    <div class="col-xs-12 col-md-8">
+    <div class="col-xs-12 col-md-9">
             <br>
-      <p class="titulo"> OBJETIVO GENERAL</p>
-      <p class="parrafo">Desarrollar el OVA para el curso de Diseño de sitios web de la UNAD, que contenga lo relacionado al tema <i>"Estructura básica de html5 (etiquetas, atributos y valores)"</i> y que explique los conceptos mas aplicados en el diseño y <strong> estructura básica de html5 </strong> para desarrollar una Web, permitiendo que el estudiante tenga las competencias necesarias para óptimo trabajo en Web. Primordialmente, consistirá en aplicar los conocimientos adquiridos sobre Web a un caso o cliente real, donde se tendrá en cuenta:Conceptuar sobre los conceptos de <strong> etiquetas, atributos y valores</strong>.</p>
-      <p class="titulo">OBJETIVOS ESPECIFICOS</p>
+      <p class="titulo">ELEMENTO RAÍZ</p>
+      <p class="parrafo"><table class="standard-table">
+ <tbody>
+  <tr>
+   <td>Elemento</td>
+   <td>Descripción</td>
+  </tr>
+  <tr>
+   <td><b>&lt;!doctype html&gt;</b></td>
+   <td>Define que el documento esta bajo el estandar de HTML 5</td>
+  </tr>
+  <tr>
+   <td><b>&lt;html&gt;</b></td>
+   <td>Representa la raíz de un documento HTML o XHTML. Todos los demás elementos deben ser descendientes de este elemento.</td>
+  </tr>
+ </tbody>
+</table></p>
+      <p class="titulo">METADATOS DEL DOCUMENTO</p>
       
-    <li><p class="parrafo">Conocer la estructura básica de una página web. (etiquetas, atributos y valores) Adquirir competencias y conocimientos de nuevos conceptos (cabeza, cuerpo)</p></li>
-    <li><p class="parrafo">Brindar elementos para la planeación, implementación y diseño de páginas web, en este OVA se establecen las bases y la metodología para apropiar el conocimiento necesario para desarrollar este tipo de trabajo.</p></li>
-    <li><p class="parrafo">Conocer a profundidad en las etiquetas basicas, su uso, sus variaciones y diferentes valores y como estas estructuran las páginas web que desarrollemos.</p></li>
+    <table class="standard-table">
+ <thead>
+  <tr>
+   <th scope="col">Elemento</th>
+   <th scope="col">Descripción</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td><b>&lt;head&gt;</b></td>
+   <td>Representa una colección de metadatos acerca del documento, incluyendo enlaces a, o definiciones de, scripts y hojas de estilo.</td>
+  </tr>
+  <tr>
+   <td><b>&lt;title&gt;</b></td>
+   <td>Define el título del documento, el cual se muestra en la barra de título del navegador o en las pestañas de página. Solamente puede contener texto y cualquier otra etiqueta contenida no será interpretada.</td>
+  </tr>
+  <tr>
+   <td><b>&lt;base&gt;</b></td>
+   <td>Define la URL base para las URLs relativas en la página.</td>
+  </tr>
+  <tr>
+   <td><b>&lt;link&gt;</b></td>
+   <td>Usada para enlazar JavaScript y CSS externos con el documento HTML actual.</td>
+  </tr>
+  <tr>
+   <td><b>&lt;meta&gt;</b></td>
+   <td>Define los metadatos que no pueden ser definidos usando otro elemento HTML.</td>
+  </tr>
+  <tr>
+   <td><b>&lt;style&gt;</b></td>
+   <td>Etiqueta de estilo usada para escribir CSS en línea.</td>
+  </tr>
+ </tbody>
+</table>
+<p class="titulo">SCRIPTING</p>
 
+<table class="standard-table">
+ <thead>
+  <tr>
+   <th scope="col">Elemento</th>
+   <th scope="col">Descripción</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td><b>&lt;script&gt;</b></td>
+   <td>Define ya sea un script interno o un enlace hacia un script externo. El lenguaje de programación es JavaScript</td>
+  </tr>
+  <tr>
+   <td><b>&lt;noscript&gt;</b></td>
+   <td>Define un contenido alternativo a mostrar cuando el navegador no soporta scripting.</td>
+  </tr>
+ </tbody>
+</table>
+<p style="font-size: 11px">Mozilla. (21 ene. 2020). MDN web docs. recuperado de: https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos</p>
+
+<br>
       </div>
       
       </div>
@@ -107,7 +173,8 @@
     </div>
      
      <footer class="bg-dark">
-        <p class="datos"><br>
+        <p class="titulo"></p>
+        <p class="datos">   <br>
           <small>Ingeniería en Sistemas</small><br>
           <small>Diseños De Sitios Web - (301122a_764)</small><br>
           <small>© Mauricio Mejía</small><br>
