@@ -22,7 +22,6 @@ html, body {
 div.logo span img{
 	padding-bottom: 7px;
 	margin-left: 55px;
-	filter: shadow(color=#999999, direction=135, strength=2);
 }
 
 .negrita{
@@ -36,7 +35,6 @@ ul li{
 	text-decoration: none;
 	list-style: none;
 	padding: 0px 0px 0px 25px;
-	font-weight: bold;
 	font-family: "Franklin Gothic Heavy";
 }
 a{
